@@ -49,6 +49,8 @@ display: flex;
 align-items: center;
 
 }
+
+
 .header-nav {
 display: flex;
 align-items: center;
@@ -63,15 +65,23 @@ align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+ 
+
 }
 
 .header-logo {
 padding: 24px 0;
 margin-right: 76px;
+
+
 }
 
 .header-logo .logo-part {
   color: #2e2f42;
+ 
+
+  
+
 }
 
 .footer-logo .logo-part {
@@ -95,6 +105,8 @@ gap: 40px;
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: block;
+ 
+
 }
 
 
@@ -122,6 +134,7 @@ gap: 40px;
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
+
 }
 
 /*main*/
@@ -134,6 +147,11 @@ gap: 40px;
 .hero-image {
  background-color: #2e2f42;
  padding: 188px 0 188px;
+ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+ background-repeat: no-repeat;
+max-width: 1440px;
+margin: 0 auto;
+background-position: center;
 }
 
 .hero-title {
