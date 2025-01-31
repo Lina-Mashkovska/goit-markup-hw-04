@@ -137,6 +137,22 @@ gap: 40px;
   color: #404bbf;
 
 }
+.current {
+  color: #404bbf !important;
+  position: relative;
+}
+
+.current::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background-color: #404bbf;
+  left: 0;
+  border-radius: 2px;
+  bottom: -1px;
+}
+
 
 /*main*/
 
