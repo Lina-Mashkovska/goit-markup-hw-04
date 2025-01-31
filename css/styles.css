@@ -457,9 +457,8 @@ padding: 120px 0;
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
-
+  
 }
- 
  .logo-part {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
@@ -477,7 +476,7 @@ padding: 120px 0;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-
+  
 }
 
 
@@ -488,12 +487,16 @@ padding: 120px 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width:264px;
+
+
   
 }
 .footer-logo {
   margin-bottom: 16px;
-  display: inline-block;
   margin-right: 120px;
+  display: flex; 
+  align-items: baseline;
+
 }
 
 
@@ -509,6 +512,7 @@ padding: 120px 0;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .foother-icon-list {
   display: flex;
@@ -516,10 +520,15 @@ padding: 120px 0;
 }
 .footer-icon {
   fill: #f4f4fd;
+ 
 }
 .link-icon-footer:hover {
   background-color: #31d0aa; 
+
 }
 .link-icon-footer:focus {
   background-color: #31d0aa;
 }
+
+
+
