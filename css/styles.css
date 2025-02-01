@@ -573,8 +573,8 @@ padding: 120px 0;
 margin-right: 120px; 
 }
 
-.footer-icon-container{
-
-  
-
+.footer{
+  display: flex;
+  align-items: baseline;
+  line-height: 1.5;
 }
