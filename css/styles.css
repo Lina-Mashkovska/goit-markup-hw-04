@@ -532,8 +532,9 @@ padding: 120px 0;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
+
+
 .foother-icon-list {
   display: flex;
   gap: 16px;
