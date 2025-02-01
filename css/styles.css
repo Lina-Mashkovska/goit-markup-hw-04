@@ -506,6 +506,7 @@ padding: 120px 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width:264px;
+  line-height: 1.5;
 
 
   
@@ -550,5 +551,7 @@ padding: 120px 0;
 }
 
 
-
+.footer-text-container{
+margin-right: 120px; 
+}
 
